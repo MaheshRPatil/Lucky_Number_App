@@ -30,7 +30,7 @@ public class LuckyNumberActivity extends AppCompatActivity {
 
         //Random Number Generater
         int random_Num= generaterandomNumber();
-        lucky.setText(""+random_Num);
+        number.setText(""+random_Num);
         Toast.makeText(this, "User Name ="+i, Toast.LENGTH_SHORT).show();
 
         sharebtn.setOnClickListener(new View.OnClickListener() {
